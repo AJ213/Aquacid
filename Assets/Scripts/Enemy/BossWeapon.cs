@@ -20,8 +20,6 @@ public class BossWeapon : MonoBehaviour
     {
         if(!waiting)
         {
-            
-            
             StartCoroutine(SwitchTimer(weaponTimers[currentWeapon]));
             currentWeapon++;
             
@@ -34,7 +32,6 @@ public class BossWeapon : MonoBehaviour
         {
             enemyWeapons[currentWeapon].FireProjectile(player.transform.position);
         }
-
     }
 
     IEnumerator SwitchTimer(float time)

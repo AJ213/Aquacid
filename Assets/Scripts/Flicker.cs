@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Health))]
@@ -25,7 +24,6 @@ public class Flicker : MonoBehaviour
         StartCoroutine(Animate());
     }
     
-
     IEnumerator Animate()
     {
         spirteRenderer.material.color = hurtColor;
@@ -33,10 +31,5 @@ public class Flicker : MonoBehaviour
         yield return new WaitForSeconds(duration);
 
         spirteRenderer.material.color = normalColor;
-    }
-
-    void Update()
-    {
-
     }
 }

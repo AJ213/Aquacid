@@ -3,7 +3,7 @@
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
-
+// Note: the author of this script is not me and can be found here https://gamedev.stackexchange.com/questions/166348/unity-create-animated-tilemap
 namespace UnityEngine.Tilemaps
 {
     /// <summary>

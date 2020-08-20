@@ -1,10 +1,8 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-
 public class EnemyWeapon : MonoBehaviour
 {
-    
     [Header("Bullet Attributes")]
     [SerializeField] float bulletSpeed = 1;
     [SerializeField] float bulletSize = 1;
@@ -32,10 +30,8 @@ public class EnemyWeapon : MonoBehaviour
         ZigZagProjectile
     }
 
-
     protected GameObject player = null;
     
-
     protected IEnumerator Reload()
     {
         isReloading = true;
@@ -79,7 +75,6 @@ public class EnemyWeapon : MonoBehaviour
         }
         StartCoroutine(ShotDelay());
         currentAmmo--;
-        
     }
 
     void Awake()
@@ -112,7 +107,5 @@ public class EnemyWeapon : MonoBehaviour
         }
 
         FireProjectile(player.transform.position);
-
-
     }
 }

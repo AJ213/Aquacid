@@ -1,11 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class BossAdjustedWeapon : EnemyWeapon
 {
     public bool isReadyToFire = false;
-    // Update is called once per frame
     new void Update()
     {
         if (isReloading)

@@ -1,6 +1,4 @@
-﻿
-//using System.Numerics;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
@@ -35,7 +33,6 @@ public class Projectile : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player");
     }
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if(!firingSource.CompareTag(collision.gameObject.tag))
@@ -48,7 +45,6 @@ public class Projectile : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
-
     public static Vector2 CalculateDirection(Vector2 currentLocation, Vector2 target)
     {
         Vector2 targetDirection = new Vector2(target.x - currentLocation.x, target.y - currentLocation.y);

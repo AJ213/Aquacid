@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ZigZagProjectile : Projectile
@@ -24,17 +23,12 @@ public class ZigZagProjectile : Projectile
         StartCoroutine(Loop());
 
     }
-
     IEnumerator Loop()
     {
-        /*Vector2 oldPlayerDirection = CalculateDirection(this.transform.position, direction);
-        oldPlayerDirection.Normalize();*/
         rightZigZagAngle = (-rightZigZagAngle + CalculateAngle(direction)) * Mathf.Deg2Rad;
         leftZigZagAngle = (leftZigZagAngle + CalculateAngle(direction)) * Mathf.Deg2Rad;
         for (int i = 1; i <= readjustTimes; i++)
         {
-            
-
             direction = CalculateDirection(this.transform.position, new Vector2(this.transform.position.x + Mathf.Cos(rightZigZagAngle), this.transform.position.y + Mathf.Sin(rightZigZagAngle)));
             rb.velocity = Vector3.zero;
             rb.AddForce(direction * speed, ForceMode2D.Impulse);

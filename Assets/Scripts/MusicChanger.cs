@@ -12,7 +12,6 @@ public class MusicChanger : MonoBehaviour
     [SerializeField] GameObject bossMusicTrigger = default;
     [SerializeField] bool bossMusicTriggered = false;
 
-
     public void Start()
     {
         levelMusic.Play();

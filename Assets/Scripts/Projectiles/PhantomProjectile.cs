@@ -1,6 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class PhantomProjectile : Projectile
@@ -22,7 +20,6 @@ public class PhantomProjectile : Projectile
 
         StartCoroutine(Loop());
     }
-
     IEnumerator Loop()
     {
         yield return new WaitForSeconds((turnAroundTime/2));
