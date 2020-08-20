@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Dark Water
+  m_EditorClassIdentifier: Assembly-CSharp:UnityEngine.Tilemaps:AnimatedTile
+  m_AnimatedSprites:
+  - {fileID: -3503751208490710571, guid: 434aacce3cc40bb4eaaf87a041b0ac7e, type: 3}
+  - {fileID: -5454309856951602140, guid: 434aacce3cc40bb4eaaf87a041b0ac7e, type: 3}
+  - {fileID: 5598058225947357769, guid: 434aacce3cc40bb4eaaf87a041b0ac7e, type: 3}
+  - {fileID: -8665532091376724, guid: 434aacce3cc40bb4eaaf87a041b0ac7e, type: 3}
+  - {fileID: -5085530812793353295, guid: 434aacce3cc40bb4eaaf87a041b0ac7e, type: 3}
+  - {fileID: 2001610092746397197, guid: 434aacce3cc40bb4eaaf87a041b0ac7e, type: 3}
+  - {fileID: 3739452276503198556, guid: 434aacce3cc40bb4eaaf87a041b0ac7e, type: 3}
+  - {fileID: 423060238724030995, guid: 434aacce3cc40bb4eaaf87a041b0ac7e, type: 3}
+  - {fileID: 423060238724030995, guid: 434aacce3cc40bb4eaaf87a041b0ac7e, type: 3}
+  - {fileID: 7657482125118405835, guid: 434aacce3cc40bb4eaaf87a041b0ac7e, type: 3}
+  - {fileID: -2655783278860573399, guid: 434aacce3cc40bb4eaaf87a041b0ac7e, type: 3}
+  - {fileID: 6346948102273527164, guid: 434aacce3cc40bb4eaaf87a041b0ac7e, type: 3}
+  - {fileID: 4690158740807946101, guid: 434aacce3cc40bb4eaaf87a041b0ac7e, type: 3}
+  m_MinSpeed: 1
+  m_MaxSpeed: 1
+  m_AnimationStartTime: 0
+  m_TileColliderType: 0
